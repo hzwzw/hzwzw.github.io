@@ -1,16 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[hzwzw's Blog]]></title>
   <link href="http://hzwzw.github.io/atom.xml" rel="self"/>
   <link href="http://hzwzw.github.io/"/>
-  <updated>2016-03-14T16:12:29-07:00</updated>
+  <updated>2016-03-14T16:21:06-07:00</updated>
   <id>http://hzwzw.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[hzwzw]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[配置octopress的坑]]></title>
+    <link href="http://hzwzw.github.io/blog/2014/06/22/pei-zhi-octopressde-keng/"/>
+    <updated>2014-06-22T16:16:14-07:00</updated>
+    <id>http://hzwzw.github.io/blog/2014/06/22/pei-zhi-octopressde-keng</id>
+    <content type="html"><![CDATA[<h2>windows配置octopress的那些坑。</h2>
+
+<p>rake setup_github_pages有问题？<br/>
+rake deploy有问题？<br/>
+中文不能用？</p>
+
+<h2>rake setup_github_pages有问题？</h2>
+
+<p>郁闷指数：3星半<br/>
+最开始一直配置不成功，Bash和Cmd都不行，最后还是用Bash。（因为cmd里面不能用git命令，可能是环境变量的问题）<br/>
+要在rake安装的文件下操作，直到这个命令好使，提示能够输入repo URL了。OK，跳出这个坑，进入下一个坑。</p>
+
+<h2>rake deploy有问题？</h2>
+
+<p>郁闷指数： 4星<br/>
+怎么搞都不成功，一直提示git push被拒绝，但我一直可以pull下来，一直是最新代码啊。<br/>
+最后怎么解决的呢？<br/>
+删掉github里面的工程，重新搞了个最新的。（之前的工程里面有个index.html。可能是这个问题。）</p>
+
+<h3>中文不能用？</h3>
+
+<p>郁闷指数： 4星<br/>
+一直提示我utf-8有问题，可是我各种变量都设置好了呀！<br/>
+最后下了notepad++，设置编码格式为“UTF-8无BOM编码”，解决了。可能是Bash的问题，
+之前一直是在Bash里面用vi写，最后用notepad++打开一看，乱七八糟的。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[First Acticle]]></title>
+    <link href="http://hzwzw.github.io/blog/2014/06/22/first-acticle/"/>
+    <updated>2014-06-22T16:15:57-07:00</updated>
+    <id>http://hzwzw.github.io/blog/2014/06/22/first-acticle</id>
+    <content type="html"><![CDATA[<h2>关于第一篇博客</h2>
+
+<p>终于搞好了么?</p>
+
+<h2>为什么要写博客呢?</h2>
+
+<p>这个问题，博客先能写出来再说。<br/>
+有些事情虽然不知道具体这么干的好处，但第一步还是要迈下去的。<br/>
+努力迈出步子，才能有更广阔的视野。<br/>
+才能思考什么是对，什么是错。</p>
+
+<p>以前做过很多东西，什么都不留下的话，很多都淡忘了。<br/>
+最近看了几本书，什么都不写的话，很难消化。<br/>
+看书的时候要不断的思考，不断的问为什么，努力去寻找答案。<br/>
+聊天的时候也要留心。</p>
+]]></content>
+  </entry>
   
 </feed>
