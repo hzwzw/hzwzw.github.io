@@ -4,7 +4,7 @@
   <title><![CDATA[hzwzw's Blog]]></title>
   <link href="http://hzwzw.github.io/atom.xml" rel="self"/>
   <link href="http://hzwzw.github.io/"/>
-  <updated>2016-03-14T16:21:06-07:00</updated>
+  <updated>2016-03-14T18:30:41-07:00</updated>
   <id>http://hzwzw.github.io/</id>
   <author>
     <name><![CDATA[hzwzw]]></name>
@@ -12,6 +12,67 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Recovery All the Stuffs in New Year]]></title>
+    <link href="http://hzwzw.github.io/blog/2016/03/14/recovery-all-the-stuffs-in-new-year/"/>
+    <updated>2016-03-14T16:29:46-07:00</updated>
+    <id>http://hzwzw.github.io/blog/2016/03/14/recovery-all-the-stuffs-in-new-year</id>
+    <content type="html"><![CDATA[<p><em>2008-2012: 读大学，2012-2016: 工作。我好期待下一个四年会是怎样的风景</em></p>
+
+<p><img class="left" src="http://hzwzw.github.io/images/path.jpg" width="1024" height="768" title="image" alt="images"></p>
+
+<h3>How to write Octopress Blog in two computors?</h3>
+
+<p>Damn it!<br/>
+两年前搞出个这么个东西，一直想向上post新东西。今天又探了许多坑。<br/>
+又对<em>Octopress</em>和<em>Github</em>加深了些理解。</p>
+
+<p>Please make sure <strong>push source branch to github</strong> whenever finishing your edit.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ rake generate
+</span><span class='line'>$ git add .
+</span><span class='line'>$ git commit -am "Some comment here." 
+</span><span class='line'>$ git push origin source  # update the remote source branch 
+</span><span class='line'>$ rake deploy             # update the remote master branch</span></code></pre></td></tr></table></div></figure>
+
+
+<p>And if you switch your machine, you need to pull changed before editing.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ cd octopress
+</span><span class='line'>$ git pull origin source  # update the local source branch
+</span><span class='line'>$ cd ./_deploy
+</span><span class='line'>$ git pull origin master  # update the local master branch</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Please see details: <a href="http://blog.zerosharp.com/clone-your-octopress-to-blog-from-two-places/">Clone Your Octopress to Blog From Two Places</a>
+<code>rake preview</code>后总是按<code>Ctrl+Z</code>结束，然后每次再preview时port都被占用。原来人家的命令是<strong><code>Ctrl+C</code></strong></p>
+
+<p><code>Git</code>总是用不熟练，不能每次换机器更新都删掉工程重来一遍哇！</p>
+
+<h3>这两年发生了什么？</h3>
+
+<p>发生了很多～<br/>
+最近最大的感悟：<strong>知行合一</strong></p>
+
+<p>看了很多书和文章，想了很多道理，这些都是Input。把书中看到的知识用与实践，在结合自己的经历把自己的感悟表达出来，这些是Output。这两年Input很多，Output很少，还是很差劲。</p>
+
+<p>任何的Output都给了未来的我极大的信心。看过去留下来的东西也很感动。</p>
+
+<p>以后会经常更新这个博客，加入很多好东西来玩，顺便学点新东西，Html和Ruby。</p>
+
+<p>折腾这些东西并没有多大的意义，可我就是享受做成一件事的过程！</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[配置octopress的坑]]></title>
