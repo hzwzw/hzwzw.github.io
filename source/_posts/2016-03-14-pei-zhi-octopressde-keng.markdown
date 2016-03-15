@@ -7,9 +7,9 @@ categories:
 ---
 ##windows配置octopress的那些坑。
 
-rake setup_github_pages有问题？  
-rake deploy有问题？  
-中文不能用？  
+- rake setup_github_pages有问题？     
+- rake deploy有问题？  
+- 中文不能用？  
 
 ##rake setup_github_pages有问题？
 
