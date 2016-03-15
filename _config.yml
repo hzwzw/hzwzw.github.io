@@ -19,7 +19,14 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: 
+
+#   address: hzwangzhiwei@gmail.com
+#   share_subject: :title by :author
+#   share_link_text: Email
+#   share_link_title: Share via email
+#   {% email_share_link  %}
+#   {% email_contact_link %}
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -64,9 +71,9 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user:
+github_user: 
 github_repo_count: 0
-github_show_profile_link: true
+github_show_profile_link: false
 github_skip_forks: true
 
 # Twitter
