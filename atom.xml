@@ -4,7 +4,7 @@
   <title><![CDATA[hzwzw's Blog]]></title>
   <link href="http://hzwzw.github.io/atom.xml" rel="self"/>
   <link href="http://hzwzw.github.io/"/>
-  <updated>2016-05-08T23:17:29-07:00</updated>
+  <updated>2016-05-15T21:33:14-07:00</updated>
   <id>http://hzwzw.github.io/</id>
   <author>
     <name><![CDATA[hzwzw]]></name>
@@ -12,6 +12,43 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[About Reading]]></title>
+    <link href="http://hzwzw.github.io/blog/2016/05/15/about-reading/"/>
+    <updated>2016-05-15T20:32:24-07:00</updated>
+    <id>http://hzwzw.github.io/blog/2016/05/15/about-reading</id>
+    <content type="html"><![CDATA[<p>已经没有工作两周了，一直在想自己要做点什么东西练练手。<br/>
+创意来源于生活，生活很单调，今天想到了读书这件事。</p>
+
+<p>经我观察：<br/>
+- 几乎所有人都知道读书是好的，应该读书。<br/>
+- 绝大多数人觉得读书是很枯燥的，读书是折磨人。</p>
+
+<p>我想到了我的大学教育，一直感觉很失败，没有学到什么东西。一直很自责，现在再来审视这段问题，
+好好想一下，正视当时的问题，我觉得不是学生的问题，当时实在没有兴趣去看那些枯燥的课本，
+老师也是照本宣科。教育本来就是激发人的兴趣，引导学生。一定要把学习过程搞的很难受，很痛苦么？<br/>
+比如，当时的教材实在是无力吐槽，明明市面上有很多好的教材，然后老师学校各怀鬼胎，用烂教材，
+也没有人告诉你，原来还有很多好书，你们可以去参考，去看。</p>
+
+<p><em>那什么是好书呢？</em>  <br/>
+<strong>你喜欢的，能读下去就是好书</strong></p>
+
+<p>那根本问题就是<strong>怎么发现有意思的好书？</strong></p>
+
+<p>我坐地铁时，观察大多数人是无所事事的，来来回回在微信和微博直接切换，上下刷动没有任何变化的聊天列表。
+<strong>如果在碎片的时间也能够接受碎片化的知识呢？</strong></p>
+
+<p>像tinder，豆瓣音乐一样，给你一小段文字，不到200字，告诉我们你喜不喜欢，在短时间内有很多机会去尝不同的书，你翻看的小段越多，我们就会知道你的口味，
+参与的人越多，结果也会更客观。<br/>
+如果他很喜欢这个，我们有途径让他看完这一节或一章，看完之后他就知道要不要买书了。<br/>
+其实就算这个人没有后续动作，他不断翻了好些不同的小段，也比逼他去看一本不喜欢的书要有趣一点，降低了枯燥的风险，
+最后也是学到了一点点知识。</p>
+
+<p>那这点知识有用么？<br/>
+学知识本来就是进一寸有进一寸的欢喜。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[每周总结]]></title>
@@ -186,13 +223,11 @@ Generally, there are two kinds things will hit me. One is when I learn some new 
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[配置octopress的坑]]></title>
+    <title type="html"><![CDATA[Windows配置octopress的坑]]></title>
     <link href="http://hzwzw.github.io/blog/2014/06/22/pei-zhi-octopressde-keng/"/>
     <updated>2014-06-22T16:16:14-07:00</updated>
     <id>http://hzwzw.github.io/blog/2014/06/22/pei-zhi-octopressde-keng</id>
-    <content type="html"><![CDATA[<h2>windows配置octopress的那些坑。</h2>
-
-<ul>
+    <content type="html"><![CDATA[<ul>
 <li>rake setup_github_pages有问题？</li>
 <li>rake deploy有问题？</li>
 <li>中文不能用？</li>
