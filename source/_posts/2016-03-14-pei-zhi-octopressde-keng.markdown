@@ -1,11 +1,10 @@
 ---
 layout: post
-title: "配置octopress的坑"
+title: "Windows配置octopress的坑"
 date: 2014-06-22 16:16:14 -0700
 comments: true
 categories: 
 ---
-##windows配置octopress的那些坑。
 
 - rake setup_github_pages有问题？     
 - rake deploy有问题？  
