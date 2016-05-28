@@ -9,11 +9,10 @@
   <meta name="author" content="hzwzw">
 
   
-  <meta name="description" content="关于第一篇博客 终于搞好了么? 为什么要写博客呢? 这个问题，博客先能写出来再说。
-有些事情虽然不知道具体这么干的好处，但第一步还是要迈下去的。
-努力迈出步子，才能有更广阔的视野。
-才能思考什么是对，什么是错。 以前做过很多东西，什么都不留下的话，很多都淡忘了。
-最近看了几本书，什么都不写的话， &hellip;">
+  <meta name="description" content="rake setup_github_pages有问题？
+rake deploy有问题？
+中文不能用？ rake setup_github_pages有问题？ 郁闷指数：3星半
+最开始一直配置不成功，Bash和Cmd都不行，最后还是用Bash。（因为cmd里面不能用git命令，可能是环境变量的问题 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -75,6 +74,60 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2014/06/22/pei-zhi-octopressde-keng/">Windows配置octopress的坑</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2014-06-22T16:16:14-07:00'><span class='date'><span class='date-month'>Jun</span> <span class='date-day'>22</span><span class='date-suffix'>nd</span>, <span class='date-year'>2014</span></span> <span class='time'>4:16 pm</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><ul>
+<li>rake setup_github_pages有问题？</li>
+<li>rake deploy有问题？</li>
+<li>中文不能用？</li>
+</ul>
+
+
+<h2>rake setup_github_pages有问题？</h2>
+
+<p>郁闷指数：3星半<br/>
+最开始一直配置不成功，Bash和Cmd都不行，最后还是用Bash。（因为cmd里面不能用git命令，可能是环境变量的问题）<br/>
+要在rake安装的文件下操作，直到这个命令好使，提示能够输入repo URL了。OK，跳出这个坑，进入下一个坑。</p>
+
+<h2>rake deploy有问题？</h2>
+
+<p>郁闷指数： 4星<br/>
+怎么搞都不成功，一直提示git push被拒绝，但我一直可以pull下来，一直是最新代码啊。<br/>
+最后怎么解决的呢？<br/>
+删掉github里面的工程，重新搞了个最新的。（之前的工程里面有个index.html。可能是这个问题。）</p>
+
+<h3>中文不能用？</h3>
+
+<p>郁闷指数： 4星<br/>
+一直提示我utf-8有问题，可是我各种变量都设置好了呀！<br/>
+最后下了notepad++，设置编码格式为“UTF-8无BOM编码”，解决了。可能是Bash的问题，
+之前一直是在Bash里面用vi写，最后用notepad++打开一看，乱七八糟的。</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2014/06/22/first-acticle/">First Acticle</a></h1>
     
     
@@ -128,6 +181,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2016/05/27/zhao-li-zong-jie/">照例总结</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2016/05/15/about-reading/">About Reading</a>
       </li>
     
@@ -141,10 +198,6 @@
     
       <li class="post">
         <a href="/blog/2016/04/28/im-24-since-yesterday/">I'm 24 Since Yesterday</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2016/04/15/you-%5B%3F%5D-ci-xin-chao-peng-pai/">又一次心潮澎湃</a>
       </li>
     
   </ul>
